@@ -143,14 +143,150 @@
 }
 /* ---------------NEWS TIME--------------- */
 #news{
-    border: 1px solid red;
-    width: 70%;
-    height: 200px;
+    /* border: 1px solid red; */
+    width: 74%;
+    height: 150px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 #news>div{
-    border: 1px dotted black;
-    display: flex;
-    width: 20%;
+    /* border: 1px dotted black; */
+    width: 25%;
     height: 100%;
+}
+#news>div>div:first-child{
+    /* border: 1px solid violet; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#news>div>div:last-child{
+    /* border: 1px solid slategray; */
+    width: 100%;
+    height: 50%;
+}
+#news>div>div:last-child>p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+/* ------some good snimation here------- */
+#anim{
+    /* border: 1px solid blue; */
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#anim>div:first-child{
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#anim>div:first-child>img{
+    /* border: 3px solid whitesmoke; */
+    border-radius: 15px;
+}
+#anim>div:last-child{
+    /* border: 1px solid green; */
+    width: 40%;
+    height: 60%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    
+}
+#anim>div:last-child>h1{
+    font-size: 50px;
+}
+#anim>div:last-child>p{
+    margin-bottom: 50px;
+}
+#anim>div:last-child>span{
+    border: 2px solid rgb(155,177,205);
+    padding: 2.8% 4%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    color: rgb(155,177,205);
+}
+
+#anim{
+    margin-top: 8%;
+}
+#inner img{
+    transition: all 0.1s ease;
+}
+#inner:hover img{
+    transform: scale(1.1);
+}
+
+/* --------------random posts--------- */
+#post1{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 400px;
+    margin: auto auto auto auto;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+#post1>div:first-child{
+    /* border: 1px solid blue; */
+    width: 45%;
+    height: 140%;
+    margin-top: -70px;
+}
+#post1>div:first-child>img{
+    width: 100%;
+}
+#post1>div:last-child{
+    /* border: 1px solid green; */
+    width: 53%;
+    height: 100%;
+    margin-left: 20px;
+}
+#post1>div:last-child>h1{
+    font-size: 50px;
+}
+#post1>div:last-child>p{
+    font-size: 19px;
+}
+#post1>div:last-child>div{
+    display: flex;
+    width: 65%;
+    height: 60px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+#post1>div:last-child>div>div:first-child{
+    width: 35%;
+    height: 100%;
+}
+#post1>div:last-child>div>div:nth-child(2){
+    width: 12%;
+    height: 100%;
+}
+#post1>div:last-child>div>div:last-child{
+    width: 25%;
+    height: 100%;
+}
+#post1>div:last-child>div>div>img{
+    width: 100%;
+    height: 100%;
+}
+/* ---------beautiful ending--------- */
+#end{
+    border: 1px solid blueviolet;
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
 }

@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#box1{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+#box1>h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#box2{
+    border: 1px solid black;
+    width: 65%;
+    margin: auto;
+}
+#box2>h1{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#para1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* --------------------------------------------------------- */
+#magicBox{
+    border: 1px solid dodgerblue;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.tab{
+    border: 1px solid blue;
+    width: 10%;
+    height: 100%;
+}
+.tab>div:first-child{
+    border: 1px solid green;
+    width: 100%;
+
+}
+.tab>div:last-child{
+    border: 1px solid salmon;
+}
+#magicGround{
+    border: 1px solid slateblue;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+#emailBox{
+    width: 40%;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(228,243,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#emailBox>div{
+    
+    width: 95%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#emailBox>div>input{
+    width: 65%;
+    height: 50%;
+    margin-left: 20px;
+    /* -----------------------------NOT WORKING */
+    border: none;
+    font-size: large;
+}
+#emailBox>div>button{
+    width: 28%;
+    height: 80%;
+    background-color: rgb(1,167,250);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: large;
+}
+#tags{
+    /* border: 1px solid blue; */
+    width: 43%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tags>div:first-child{
+    /* border: 1px solid slategrey; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+#tags>div:nth-child(2){
+    /* border: 1px solid slategrey; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#tags>div:last-child{
+    /* border: 1px solid slategrey; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+#tags>div>i{
+    font-size: 24px;
+    margin-right: 5px;
+}
+#tags>div>div:last-child{
+    /* border: 1px solid purple; */
+    width: 88%;
+    height: 100%;
+    display: flex;
+}
+#tags>div>p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* ---------------NEWS TIME--------------- */
+#news{
+    border: 1px solid red;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+#news>div{
+    border: 1px dotted black;
+    display: flex;
+    width: 20%;
+    height: 100%;
+}

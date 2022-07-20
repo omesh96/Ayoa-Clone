@@ -1,0 +1,201 @@
+ 
+ #software{
+    width: 75%;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+  padding-bottom: 10px;
+  background-color: #fff6e4;
+ }
+ #image{
+ width: 25%;
+ 
+ }
+ #image img{
+    width: 86%;
+   height: 98%;
+ }
+ #text>p{
+    font-size: 18px;
+ }
+ #learnmorebtn{
+    width: 15%;
+ }
+ #learnmorebtn button{
+   
+    padding: 12px;
+    background-color: #64c848;
+   border-radius: 10px;
+  
+ }
+ #learnmorebtn button:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+ }
+ #learnmorebtn button>a{
+    color: white;
+ }
+
+ #sidebar{
+    width: 4%;
+    height: 240px;
+   
+ position: fixed;
+  left: 0;
+ 
+  z-index: 1000;
+  white-space: normal;
+ }
+ .logodiv{
+    width: 100%;
+    height: 32%;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+ .logodiv>img{
+    width: 60%;
+ }
+ .logodiv:hover{
+    background-color: blue;
+ }
+
+ h3 {
+    overflow: hidden;
+    text-align: center;
+    color: gray;
+ 
+
+}
+h3:before,
+h3:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 36%;
+    z-index: 0;
+   
+}
+h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+   
+}
+h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+#headingbelowdate{
+ text-align: center;
+  font-size: 36px;
+  font-family: open_sansbold;
+
+}
+
+ #brainimage{
+   
+    width: 65%;
+    margin: auto;
+  
+}
+#brainimage>img{
+    width: 100%;
+}
+#p{
+    width: 50%;
+   font-size: 18px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: cursive;
+    color: gray;
+}
+i{
+    color: gray;
+    font-size: 20px;
+    font-family: open_sansregular;
+    line-height: 30px;
+}
+#greta{
+   width: 50%;
+   margin: auto;
+  
+   text-align: center;
+}
+ #greta>h1{
+  text-align: left;
+}
+#greta>img{
+   width: 96%;
+   margin-top: -19px;
+}
+ #greta>p{
+   font-size: 18px;
+   text-align: left;
+   line-height: 30px;
+   font-family: cursive;
+   color: gray;
+ }
+
+
+ #maincontainer{
+   width: 94%;
+   margin: auto;
+   padding: 15px;
+display: flex;
+gap: 10px;
+margin-bottom: 30px;
+
+ }
+ .container{
+  overflow: hidden;
+   padding: 10px;
+   width: 32%;
+ border: 1px solid whitesmoke;
+   text-align: center;
+   padding-bottom: 50px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+ }
+ .container img{
+ width: 100%;
+ height: 50%;
+ transition: transform 0.2s;
+ overflow: hidden;
+ }
+ .container img:hover{
+   transform: scale(1.60);
+ }
+ #containerimg{
+   overflow: hidden;
+ }
+ .container>#heading p{
+  
+   font-size: 26px;
+   font-weight: bold;
+ }
+ #redmoreofdiv>a:hover{
+   color: black;
+ }
+ #minandbuttons{
+ 
+   width: 100%;
+   display: flex;
+   align-items: center;
+ justify-content: space-between;
+}
+#minandbuttons>h4{
+   color: gray;
+}
+#minandbuttons button>a{
+   font-size: 16px;
+}

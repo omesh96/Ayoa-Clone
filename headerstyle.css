@@ -1,0 +1,33 @@
+ 
+ header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 70px;
+}
+ header:hover{
+  cursor: pointer;
+ }
+button{
+    padding: 8px;
+  background-color: white;
+    border: transparent;
+    font-size: 20px;
+   
+}
+ button:hover{
+  border:1px solid whitesmoke;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 3px, rgba(240, 46, 170, 0.3) 0px 0px, rgba(240, 46, 170, 0.2) 0px 1px;
+ }
+ #search{
+    padding: 4px;
+ }
+ a:link {
+    text-decoration: none;
+   
+  }
+  a{
+    color: gray;
+  }
+  

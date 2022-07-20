@@ -1,0 +1,205 @@
+header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 70px;
+}
+  button{
+    padding: 8px;
+  background-color: white;
+    border: transparent;
+    font-size: 20px;
+   
+}
+ button:hover{
+  border:1px solid whitesmoke;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 3px, rgba(240, 46, 170, 0.3) 0px 0px, rgba(240, 46, 170, 0.2) 0px 1px;
+ }
+ #search{
+    padding: 4px;
+ }
+
+ h3 {
+    overflow: hidden;
+    text-align: center;
+    color: gray;
+}
+h3:before,
+h3:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+ #firstimgandtext{
+    padding: 35px;
+ 
+} 
+ #brainimage{
+    overflow: hidden;
+}
+  #brainimage>img{
+    width: 400px;
+    transition: transform .2s; 
+}
+#brainimage>img:hover{
+    transform: scale(1.25);
+}
+
+#firstimgandtext{
+    display: flex;
+  gap: 30px;
+ 
+}
+ #minandbuttons{
+ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+}
+#minandbuttons>h4{
+    color: gray;
+}
+#buttons>button{
+    font-size: 12px;
+    color: gray;
+}
+ #heading>p{
+    font-size: 34px;
+    font-weight: bolder;
+   margin-top: -5px;
+}
+#heading+div>p{
+    color: gray;
+}
+  #readmore{
+    text-align: right;
+  }
+  a:link {
+    text-decoration: none;
+   
+  }
+  a{
+    color: gray;
+  }
+  #maincontainer{
+   
+    padding: 15px;
+ display: flex;
+ gap: 10px;
+  }
+  .container{
+   overflow: hidden;
+    padding: 10px;
+    width: 32%;
+  border: 1px solid whitesmoke;
+    text-align: center;
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  }
+  .container img{
+  width: 100%;
+  height: 50%;
+  transition: transform 0.2s;
+  overflow: hidden;
+  }
+  .container img:hover{
+    transform: scale(1.60);
+  }
+  #containerimg{
+    overflow: hidden;
+  }
+  .container>#heading p{
+   
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #redmoreofdiv>a:hover{
+    color: black;
+  }
+  #morepost{
+    width: 8%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 12px 25px;
+   color: gray;
+  border-radius: 10px;
+  font-weight: bold;
+  }
+  
+  #morepost:hover{
+    background-color: #007bc8;
+   color: white;
+   cursor: pointer;
+  }
+  #newtoimgandtext{
+    width: 70%;
+    margin: auto;
+  
+    margin-top: 40px;
+    border: 1px solid red;
+    background-color: #007bc8;
+    display: flex;
+   justify-content: space-around;
+   gap: 20px;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+  #newtoimg{
+    margin-top: 30px;
+   width: 120%;
+
+ 
+  }
+  #newtoimg img{
+    width: 100%;
+    height: 90%;
+  }
+  #newtotext{
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    font-style: open_sansbold;
+  }
+  #newtotext>p{
+    font-size: 18px;
+  }
+ #linkandbtn{
+   display: flex;
+   gap: 30px;
+ }
+ #linkandbtn>a{
+   color: whitesmoke;
+   text-decoration: underline;
+ }
+ #linkandbtn button{
+    padding: 12px 30px;
+    background-color: #64c848;
+   border-radius: 10px;
+ }
+ #linkandbtn button:hover{
+  background-color: limegreen;
+ }
+ #linkandbtn button>a{
+    color: white;
+    
+ }
+ button:hover{
+    cursor: pointer;
+ }

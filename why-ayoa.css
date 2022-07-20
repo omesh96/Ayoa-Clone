@@ -1,0 +1,155 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#topic{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+#t1{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+#t1>div:first-child{
+    /* border: 1px dotted darkviolet; */
+    width: 100%;
+    height: 50%;
+}
+#t1>div:first-child>h1{
+    font-size: 60px;
+}
+#t1>div:first-child>p{
+    font-size: 20px;
+    color: black
+}
+#t1>div:first-child>p:last-child{
+    font-size: 18px;
+    color: lightslategray;
+}
+#t1>div:nth-child(2){
+    /* border: 1px dotted darkgoldenrod; */
+    width: 100%;
+    height: 25%;
+}
+#t1>div:last-child{
+    /* border: 1px dotted darkmagenta; */
+    width: 100%;
+    height: 25%;
+}
+#t2{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+}
+#t2>img{
+    width: 100%;
+}
+/* --------------------email-------------------- */
+
+#emailBox{
+    width: 90%;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: rgb(228,243,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#emailBox>div{
+    
+    width: 95%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#emailBox>div>input{
+    width: 65%;
+    height: 50%;
+    margin-left: 20px;
+    /* -----------------------------NOT WORKING */
+    border: none;
+    font-size: large;
+}
+#emailBox>div>button{
+    width: 28%;
+    height: 80%;
+    background-color: rgb(1,167,250);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: large;
+}
+/* --------------------------tag----------------------- */
+#tags{
+    /* border: 1px solid blue; */
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10%;
+}
+#tags>div:first-child{
+    /* border: 1px solid slategrey; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tags>div:nth-child(2){
+    /* border: 1px solid slategrey; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tags>div:last-child{
+    /* border: 1px solid slategrey; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tags>div>i{
+    font-size: 24px;
+    margin-right: 5px;
+}
+#tags>div>div:last-child{
+    /* border: 1px solid purple; */
+    width: 88%;
+    height: 100%;
+    display: flex;
+}
+#tags>div>p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* -----------------got little problem here---------- */
+#work{
+    border: 1px solid lawngreen;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+#work>div:first-child{
+    border: 1px solid;
+    width: 65%;
+    height: 100%;
+}
+#work>div:last-child{
+    border: 1px solid;
+    width: 35%;
+    height: 100%;
+}
+
+/* --------------------------------------------------- */

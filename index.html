@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="box1">
-        <h1>Join the millions of people enhancing their working and learning style</h1>
+        <h1>Join the <span>millions</span> of people <span>enhancing</span> their working and learning style</h1>
     </div>
     <div id="box2">
         <h1>Ayoa delivers neuro-inclusive, Ai powered mind mapping and visual task management to supercharge creativity, memory, and productivity</h1>
@@ -19,50 +19,69 @@
     <p id="para1">Click a view, select your style . . .</p>
     <div id="magicBox">
         <div class="tab">
-            <div></div>
-            <div></div>
+            <div>
+                <img src="https://www.ayoa.com/wp-content/uploads/2020/10/organic.svg">
+            </div>
+            <div onclick="main(1)">Mind maps</div>
         </div>
         <div class="tab">
             <div>
-                <img src="">
+                <img src="https://www.ayoa.com/wp-content/uploads/2020/10/whiteboard.svg">
             </div>
-            <div></div>
+            <div onclick="main(2)">Whiteboards</div>
         </div>
         <div class="tab">
             <div>
-                <img src="">
+                <img src="https://www.ayoa.com/wp-content/uploads/2020/10/workflow.svg">
             </div>
-            <div></div>
+            <div onclick="main(3)">Workflow</div>
         </div>
         <div class="tab">
             <div>
-                <img src="">
+                <img src="https://www.ayoa.com/wp-content/uploads/2020/10/canvas.svg    ">
             </div>
-            <div></div>
+            <div onclick="main(4)">Canvas</div>
         </div>
         <div class="tab">
             <div>
-                <img src="">
+                <img src="https://www.ayoa.com/wp-content/uploads/2020/10/gantt.svg">
             </div>
-            <div></div>
+            <div onclick="main(5)">Gantt</div>
         </div>
         <div class="tab">
             <div>
-                <img src="">
+                <img src="https://www.ayoa.com/wp-content/uploads/2020/10/radial.svg">
             </div>
-            <div></div>
+            <div onclick="main(6)">Radial</div>
         </div>
         <div class="tab">
             <div>
-                <img src="">
+                <img src="https://www.ayoa.com/wp-content/uploads/2022/06/catpuremaps.svg">
             </div>
-            <div></div>
+            <div onclick="main(7)">Capture</div>
         </div>
     </div>
     <!-- appending part -->
     <div id="magicGround">
-        <div></div>
-        <div></div>
+        <!-- append your data here -->
+    <!-- <div>
+            <box>
+                <h1>title</h1>
+                <p>content</p>
+            </box>
+            <box>
+                <box>
+                    <img src="">
+                </box>
+                <box>
+                    <h4>subcontent</h4>
+                    <p>time</p>
+                </box>
+            </box>
+        </div>
+        <div>
+            <img src="">
+        </div> -->
     </div>
     <div id="emailBox">
         <div>
@@ -158,7 +177,7 @@
             <!-- Ayoya icion color is not changing -->
             <h1>Try<img style="color: white;" src="https://www.ayoa.com/wp-content/uploads/2021/07/ayoa_assistive_tech-300x120.png">today</h1>
         </div>
-        <div id="emailBox">
+        <div style="margin-top: 10px;" id="emailBox">
             <div>
                 <input type="text" placeholder="Enter your email">
                 <button>Get started</button>
@@ -194,3 +213,4 @@
     </div>
 </body>
 </html>
+<script src="index.js"></script>

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #box1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
     margin: auto;
 }
@@ -15,8 +15,12 @@
     margin-bottom: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#box1>h1>span{
+    color: rgb(1,197,254);
+    font-size: 50px;
+}
 #box2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 65%;
     margin: auto;
 }
@@ -34,7 +38,7 @@
 }
 /* --------------------------------------------------------- */
 #magicBox{
-    border: 1px solid dodgerblue;
+    /* border: 1px solid dodgerblue; */
     width: 80%;
     height: 100px;
     margin: auto;
@@ -42,29 +46,93 @@
     justify-content: space-around;
 }
 .tab{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 10%;
     height: 100%;
 }
 .tab>div:first-child{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
-
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab>div:first-child>img{
+    height: 100%;
 }
 .tab>div:last-child{
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
+    width: 100%;
+    height: 70%;
+    font-weight: bolder;
+    color: rgb(146,156,182);
+    text-align: center;
+}
+.tab>div:last-child:hover{
+    cursor: pointer;
+    color: rgb(190,197,207);
 }
 #magicGround{
-    border: 1px solid slateblue;
+    /* border: 1px solid slateblue; */
     width: 80%;
     height: 400px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+#magicGround>div:first-child{
+    /* border: 1px solid green; */
+    width: 40%;
+    height: 70%;
+    margin: auto;
+}
+#bb1{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 50%;
+}
+#bb2{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#bb2>div:first-child{
+    /* border: 1px dotted dodgerblue; */
+    width: 40%;
+    height: 60%;
+    margin: auto;
+}
+#bb2>div:last-child{
+    /* border: 1px dotted saddlebrown; */
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+#magicGround>div:last-child{
+    border: 7px solid white;
+    width: 50%;
+    height: 110%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    
+}
+#magicGround>div:last-child>img{
+    width: 100%;
+    height: 100%; 
 }
 #emailBox{
     width: 40%;
     height: 80px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
     background-color: rgb(228,243,255);
     display: flex;
@@ -287,7 +355,7 @@
 #end{
     /* border: 1px solid blueviolet; */
     width: 100%;
-    height: 620px;
+    height: 630px;
     margin-top: 200px;
     background-color: rgb(4,154,233);
     padding-top: 10px;
@@ -345,7 +413,10 @@
     text-align: center;
     font-size: 24px;
 }
-#p1>b{
+#p1>b:first-child{
+    color: yellow;
+}
+#p1>b:last-child{
     color: white;
 }
 #p2{

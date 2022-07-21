@@ -38,6 +38,7 @@ document.querySelector("#forgetPass").addEventListener("click",function(){
 })
 let forgetPaswordfunc=()=>{
     alert("Please update the Password!!")
+    window.location.href="forget.html";
     // let updatePass=JSON.parse(localStorage.getItem("login"));
     // let login=document.querySelector("#login");
 

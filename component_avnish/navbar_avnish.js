@@ -1,32 +1,32 @@
   function navbar_avnish(){
-    return` <div id="con">
+    return`         <div id="con">
     <div class="yogaImage">
         <img id="img"src="https://www.ayoa.com/wp-content/themes/droptaskreload/navigation/images/ayoa_bluenavlogo.svg"alt="err"/>
     </div>
 
     <div id="right_heding">
-        <div>Home</div>
-        <div>Why yoga?</div>
+       <a href="index.html">Home</a>
+        <a href="why-ayoa.html">Why Ayoa?</a>
         <div id="dropdown">
-            <span>User</span>
+           <a href="/safe-bridge-5506/uses_Home_Page_Day-3/uses.html"> User</a>
             <div id="dropdown-content">
-            <p>Mind Mapping</p>
-            <p>Task Management</p>
-            <p>Whiteboards</p>
+           <a href=""> Mind Mapping</a>
+            <a href="">Task Management</a>
+            <a href="">Whiteboards</a>
             </div>
           </div>
-          <div>Inclusivity</div>
+          <a href="">Inclusivity</a>
           <div id="dropdown">
-            <span>Resources</span>
+            <a href="">Resources</a>
             <div id="dropdown-content">
-            <p>Ayoa blog</p>
-            <p>Press & Articles</p>
-            <p>Keynote Speaker</p>
-            <p>Help Center</p>
+             <a href="/safe-bridge-5506/ayoablog.html">Ayoa blog</a>
+             <a href="">Press & Articles </a>
+            <a href="">Keynote Speaker</a>
+           <a href="">Help Center</a>
             </div>
           </div>
-          <div>Pricing</div>
-          <div><button id="LButton">Log In</button></div>
+          <a href=""> Pricing</a>
+          <a href="login.html"><button id="LButton">Log In</button></a>
     </div>
 </div>`
   }

@@ -362,14 +362,24 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #end>#one{
-    /* border: 1px solid pink; */
-    width: 30%;
+    /* border: 1px solid blue; */
+    width: 40%;
     height: 80px;
     margin:60px auto auto auto;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
 }
-#end>div>h1>img{
-    height: 80px;
+#end>div>img{
+    height: 60px;
+    width: auto;
+    margin: 0px 10px;
+}
+#end>div>span{
+    font-size: 40px;
+    font-weight: bolder;
 }
 #end>h3{
     text-align: center;

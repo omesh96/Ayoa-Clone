@@ -97,13 +97,16 @@ function displayData(arr){
     let t = document.createElement("p");
     t.innerText = "2:22";
 
+    let hr1 = document.createElement("hr");
+    let hr2 = document.createElement("hr");
+
     candy1.append(thumnN);
     candy2.append(h4,t);
 
     box1.append(head,para);
     box2.append(candy1,candy2);
     
-    card1.append(box1,box2);
+    card1.append(box1,hr1,box2,hr2);
     card2.append(image);
 
     container.append(card1,card2);

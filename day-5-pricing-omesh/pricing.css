@@ -1,0 +1,452 @@
+
+ #mainchoose{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+  #choosetext>h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  #choosetext>p{
+    text-align: left;
+    font-size: 17px;
+    font-family: cursive;
+   color: gray;
+  }
+  #chooseimg>p{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+  }
+  #chooseimg>p>span{
+    color: #ffcb00;
+    font-weight: bold;
+  }
+
+
+ 
+  
+
+  .main{
+    width: 60%;
+    margin: 80px auto;
+    position: relative;
+   
+  }
+  #slider{
+    -webkit-appearance: none;
+    width: 80%;
+    height: 12px;
+    outline: none;
+    border-radius: 5px;
+ background-color: #e1e1e1;
+  }
+  
+  #slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+  }
+  #selector{
+    height: 104px;
+    width: 48px;
+    position: absolute;
+    bottom: -20px;
+    left: 0%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  .selectbtn{
+    height: 58px;
+    width: 48px;
+   /* background-image: url("https://flyclipart.com/thumb2/arrow-right-right-tick-slider-website-icon-359409.png");
+  */
+  background-image: url("https://cdn-icons-png.flaticon.com/128/8026/8026936.png");
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+   position: absolute;
+   bottom: 0;
+ }
+ #selectvalue{
+    width: 68px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    background: #ffcb00;  
+   border: 1px solid gray; 
+   border-radius: 4px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+  
+
+ }
+ #selectvalue::after{
+    content: " ";
+    border-top: 17px solid #ffcb00;  
+ 
+    border-left: 34px solid white;
+  border-right: 34px solid white  ;
+  
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+ }
+  #progressbar{
+    width: 0%;
+    height: 12px;
+background-color: #1fc3fc;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  #mainpricebox{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+   
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .pricebox{
+    width: 31%;
+    padding: 20px 10px;
+    text-align: center;
+   
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .pricebox>p:first-child{
+    font-size: 35px;
+    color: #6a23d8;
+  }
+  .pricebox>p:nth-child(4){
+    color: gray;
+    font-size: 18px;
+  }
+  #checktext{
+    padding-left: 5%;
+  }
+  
+  #checktext>p{
+    text-align: start;
+    font-size: 18px;
+    font-family: cursive;
+    color: gray;
+  }
+
+  #bynowbtn{
+    padding: 10px  60px;
+   
+    background-color: #6a23cf;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+   
+  }
+  #bynowbtn:hover{
+    background-color: blue;
+  }
+
+  #pricevalue>p:first-child{
+    font-weight: bold;
+    font-size: 42px;
+  }
+  #pricevalue>p:last-child{
+    width: 80%;
+    margin: auto;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+
+  }
+
+  #pricevalue2>p:first-child{
+    font-weight: bold;
+    font-size: 42px;
+  }
+  #pricevalue2>p:last-child{
+    width: 80%;
+    margin: auto;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+
+  }
+
+  #pricevalue3>p:first-child{
+    font-weight: bold;
+    font-size: 42px;
+  }
+  #pricevalue3>p:last-child{
+    width: 80%;
+    margin: auto;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+
+  }
+   
+   .discountbox{
+    border-radius: 15px;
+  }
+  .discountbox>p:first-child{
+    font-size: 20px;
+  }
+  .discountbox>p:last-child{
+    font-size: 18px;
+  }
+
+
+  #paymentbox{
+    width: 60%;
+    margin: auto;
+   
+    padding: 20px;
+   
+    margin-top: 40px;
+    text-align: center;
+  }
+  #paymentbox>img{
+    width: 95%;
+  }
+  #paymentbox>p{
+    color: gray;
+    font-family: cursive;
+    font-size: 14px;
+   
+  }
+
+   #discovervedio{
+    width: 55%;
+    margin: auto;
+   
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+   }
+   #discovervedio>p{
+    font-size: 18px;
+    font-family: open sans,sans-serif;
+    color: gray;
+   }
+   #discovervedio>iframe{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+
+   #emailbox{
+    width: 45%;
+    margin: auto;
+    margin-top: 30px;
+    
+    padding: 20px;
+    text-align: center;
+   }
+   #emailbox>p:first-child{
+    font-size: 35px;
+    color: gray;
+   }
+   #emailbox>p:last-child{
+    font-family: cursive;
+    color: gray;
+    margin-top: -15px;
+    font-size: 22px;
+   }
+   #emailbox>form>input{
+    margin-top: 15px;
+    padding: 10px;
+    color: gray;
+    font-size: 16px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+   }
+   #alterbtn{
+    padding: 10px 30px;
+    background-color: #0983e9;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    margin-left: 5px;
+   }
+   #alterbtn:hover{
+    background-color: skyblue;
+   }
+
+   #imagediv{
+    margin-top: 40px;
+    padding: 13px;
+    background-color: #0a5c7f;
+    margin-bottom: 20px;
+   }
+   #imagediv>div{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   #imagediv>div>img{
+    width: 10%;
+   }
+
+
+   #jack{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+   }
+   #jack>p:first-child{
+    font-style: italic;
+    font-size: 22px;
+   }
+   #jack>p:last-child{
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+   }
+
+
+
+   #online{
+    background-color: #f7fbfc;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+    padding: 20px;
+    margin-top: 30px;
+   }
+   #onlinehead{
+    margin-top: 40px;
+   }
+   #onlinehead>p{
+    font-size: 40px;
+    color: #5c5c5c;
+   }
+   #onlinehead>p>span{
+    color: #00a9fd;
+   }
+   #online>p{
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+    font-style: italic;
+   }
+   #downloadbox{
+    margin-top: 30px;
+   
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+   }
+   #downloadbox>div{
+    width: 31%;
+   }
+   #downloadbox>div>img{
+    width: 98%;
+    margin-bottom: 30px;
+   }
+   .launch{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #00a9fd;
+    border-radius: 5px;
+    border-style: none;
+   }
+   .launch:hover{
+    background-color: cadetblue;
+   }
+
+
+
+   #faq{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+  
+    padding: 20px;
+    text-align: center;
+   }
+   #faq>p{
+    font-size: 35px;
+    color: gray;
+    font-family: sans-serif;
+   }
+   #accordian{
+    margin: 20px auto;
+   /* width: 600px;  */
+   }
+   #accordian li label{
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+  /* color: #c20000;  */
+
+  background: #f5f5f5;
+   }
+   #accordian li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+   
+    padding: 10px;
+    border-radius: 4px;
+   }
+
+   #accordian li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+   }
+   #accordian label+input[type="radio"]{
+    display: none;
+   }
+
+   #accordian .content{
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+   }
+
+   #accordian label+input[type="radio"]:checked+ .content{
+    max-height: 400px;
+   }

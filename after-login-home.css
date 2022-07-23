@@ -1,31 +1,36 @@
 #box{
-    border: 1px solid sienna;   
+    /* border: 1px solid sienna;    */
     display: flex; 
 }
 #box-first{
-    border: 1px solid darkgreen;
+    /* border: 1px solid darkgreen; */
     width: 20%;
     height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(248,250,251);
 }
 #box-first>div:first-child{
-    border: 1px solid lawngreen;
+    /* border: 1px solid lawngreen; */
     width: 100%;
     height: 100px;
     margin-top: 50px;
 }
 #box-first>div:first-child>div:first-child{
-    border: 1px dotted black;
+    /* don't comment this border */
+    border: 1px solid black;
     width: 80%;
     height: 50%;
     display: flex;
     align-items: center;
     margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(221,232,240);
 }
 #box-first>div:first-child>div:last-child{
-    border: 1px dotted darkorchid;
+    /* border: 1px dotted darkorchid; */
     width: 80%;
     height: 50%;
     display: flex;
@@ -39,15 +44,14 @@
     width: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 80px;
     background-color: white;
     border-radius: 5px;
     opacity: 0.5;
     font-size: 18px;
-    
 }
 #box-first>div:last-child{
-    border: 1px solid mediumblue;
+    /* border: 1px solid mediumblue; */
     width: 100%;
     height: 100px;
     display: flex;
@@ -55,7 +59,7 @@
     justify-content: space-between;
 }
 #box-first>div:last-child>div:first-child{
-    border: 1px solid darkgreen;
+    /* border: 1px solid darkgreen; */
     width: 80%;
     height: 50%;
     display: flex;
@@ -63,34 +67,173 @@
     margin: auto;
 }
 #box-first>div:last-child>div:last-child{
-    border: 1px solid darkorange;
+    /* border: 1px solid darkorange; */
     width: 70%;
     height: 50%;
     display: flex;
-    align-items: center;
+    align-items:center;
     margin: auto;
     opacity: 0.5;
 }
+#box-first>div>div>img{
+    margin-left: 10px;
+}
 #box-first>div:last-child>div:last-child>i{
     margin-right: 15px;
+    margin-left: 10px;
 }
-#box-last{
-    border: 1px solid deeppink;
-    width: 80%;
-    height: 550px;
-}
-#box-last>div:nth-child(2){
-    border: 1px solid darkmagenta;
-    width: 100%;
-    height: 60px;
-    margin: 20px auto;
-}
-#box-last>div:last-child{
-    border: 1px solid darkorange;
-    width: 100%;
-    height: 400px;
-}
+
 .box-image{
     height: 27px;
     margin-right: 10px;
+}
+/* --------------------end of side bar-------------- */
+/* ---------------start of body box---------------- */
+#box-last{
+    /* border: 1px solid deeppink; */
+    width: 80%;
+    height: 550px;
+    background-color: rgb(248,250,251);
+}
+#box-last>div:nth-child(2){
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(221,232,240);
+}
+#h-box{
+    /* border: 1px solid darkolivegreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#h-box>div:first-child{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 12%;
+    height: 70%;
+    border-radius: 10px;
+    margin-left: 1%;
+    font-size: 17px;
+    background-color: rgb(0,144,255);
+    color: white;
+    border: none;
+}
+/* --------head left side, searbar and filter stuff--- */
+#h-box>div:last-child{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 60%;
+    height: 65%;
+    justify-content: space-around;
+
+}
+#h-box>div:last-child>div:first-child{
+    /* don't comment this border */
+    border: 1px solid rgb(221,232,240);
+    width: 43%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+#h-box>div:last-child>div:nth-child(2){
+    /* don't comment this border */
+    border: 1px solid rgb(221,232,240);
+    width: 29%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+#h-box>div:last-child>div:nth-child(2)>select>option{
+    color: rgb(117,117,161);
+}
+#h-box>div:last-child>div:last-child{
+    /* don't comment this border */
+    border: 1px solid rgb(221,232,240);
+    width: 22%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+#h-box>div:last-child>div:last-child>select>option{
+    color: rgb(117,117,161);
+}
+#h-box>div:last-child>div>i{
+    color: rgb(9,145,251);
+    margin-right: 10px;
+    margin-left: 7px;
+}
+#h-box>div:last-child>div>input{
+    width: 75%;
+    height: 70%;
+    font-size: 15px;
+    border: none;
+}
+#h-box>div:last-child>div>select{
+    width: 75%;
+    height: 70%;
+    font-size: 15px;
+    border: none;
+}
+#h-box>div:last-child>div:last-child>select:last-child{
+    width: 67%;
+    height: 70%;
+    font-size: 15px;
+    border: none;
+}
+/* ---------------------head end------------------- */
+/* --------------body content start---------- */
+#b-box{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;    
+    border-color: rgb(221,232,240);
+    padding: 60px;
+}
+#b-box>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,300px);
+    gap: 100px;
+}
+#b-box>div>div{
+    /* border: 1px solid green; */
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#b-box>div>div>img{
+    /* border: 1px solid black; */
+    height: 120px;
+    margin-top: -110px;
+    margin-bottom: 30px;
+}
+#b-box>div>div>p{
+    margin-bottom: 10px;
+    color: rgb(113,113,112);
+}
+#b-box>div>div>p:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+}
+#b-box>div>div>button{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(0,144,255);
+    color: white;
+    border: none;
 }

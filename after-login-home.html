@@ -6,11 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/982947b09b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="component-navbar.css"/>
+    <link rel="stylesheet" href="after-login-home.css">
     <title>Document</title>
   </head>
   <body>
-    <div id="bossNav">
+    <div id="bossNav"></div>
+    <div id="box">
+      <div id="box-first">
+        <div>
+          <div>
+            <img class="box-image" src="https://app-assets.ayoa.com/8.90.1/images/icons/home.svg">
+            <p>Home</p>
+          </div>
+          <div>
+            <img class="box-image" src="https://app-assets.ayoa.com/8.90.1/images/folders/folders.svg">
+            <p>Folders</p>
+            <button>+</button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="box-image" src="https://app-assets.ayoa.com/8.90.1/images/folders/templates.svg">
+            <p>My Templates</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-box-archive"></i>
+            <p>Archive</p>
+          </div>
+        </div>
+      </div>
+      <div id="box-last">
+        <h2 style="margin-top: 10px; margin-bottom:-10px;color: rgb(61,63,66)">Hello, Rampravesh Sharma</h2>
+        <div id="h-box">
+          <div>
+            <i class="fa-solid fa-plus fa-lg"></i>
+            <p>Create New</p>
+          </div>
+          <div>
+            <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search boards">
+            </div>
+            <div>
+              <i class="fa-solid fa-chart-bar"></i>
+              <select>
+                <option value="recent">Recently opened</option>
+              </select>
+            </div>
+            <div>
+              <i class="fa-solid fa-filter"></i>
+              <select>
+                <option value="all">All</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="b-box">
+          <div>
+            <div>
+              <img src="https://app-assets.ayoa.com/8.90.1/images/home/home-idea-boards.svg">
+              <p>Mind Map</p>
+              <p><b>Grow and structure</b> ideas using radial, speed, or organic style <b>mind maps.</b></p>
+              <button>Create mind map</button>
+            </div>
+            <div>
+              <img src="https://app-assets.ayoa.com/8.90.1/images/home/home-whiteboards.svg">
+              <p>Whiteboard</p>
+              <p><b>Brainstorm ideas</b>, work together, and cultivate knowledge on a <b>limitless canvas.</b></p>
+              <button>Create whiteboard</button>
+            </div>
+            <div>
+              <img src="https://app-assets.ayoa.com/8.90.1/images/home/home-task-boards.svg">
+              <p>Task board</p>
+              <p><b>Take action</b> and get things done by <b>managing tasks</b> using multiple project views.</p>
+              <button>Create task board</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
-<script src="after-login-home.js" type="module"></script>
+<script src="after-login-Import-nav.js" type="module"></script>
+<script src="after-login-home.js"></script>

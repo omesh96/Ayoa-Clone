@@ -8,14 +8,16 @@ document.querySelector("form").addEventListener("submit",function(event){
     }
     if(checkemail(obj.customerEmail===true))
     {
+        alert("Signup Successfully Completed!!")
         arr.push(obj);
         localStorage.setItem("signup",JSON.stringify(arr))
     }
     else{
-        alert("Account already exist")
+        alert("Account already exist!!")
+        
     }
     window.location.href="login.html"
-    document.querySelector("form"),reset();
+    document.querySelector("form").reset();
 })
 function checkemail(customerEmail){
     let filter=arr.filter(function(elem){

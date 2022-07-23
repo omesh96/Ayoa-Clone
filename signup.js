@@ -6,13 +6,14 @@ document.querySelector("form").addEventListener("submit",function(event){
         customerEmail:document.querySelector("#email").value,
         customerPassword:document.querySelector("#password").value,
     }
-    if(checkemail(obj.customerEmail===true))
+    if(checkemail(obj.customerEmail))
     {
-        alert("Signup Successfully Completed!!")
+        alert("Signup Successfully Completed!!");
         arr.push(obj);
-        localStorage.setItem("signup",JSON.stringify(arr))
+        localStorage.setItem("signup",JSON.stringify(arr));
     }
-    else{
+    else
+    {
         alert("Account already exist!!")
         
     }

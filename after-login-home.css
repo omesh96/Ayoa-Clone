@@ -29,6 +29,20 @@
     border-radius: 10px;
     border-color: rgb(221,232,240);
 }
+#box-first>div:first-child>div>p{
+    font-weight: bold;
+    color: rgb(61,63,108);
+}
+#box-first>div:last-child>div>p{
+    font-weight: bold;
+    color: rgb(61,63,108);
+}
+#box-first>div:first-child>div:hover{
+    cursor: pointer;
+}
+#box-first>div:last-child>div:hover{
+    cursor: pointer;
+}
 #box-first>div:first-child>div:last-child{
     /* border: 1px dotted darkorchid; */
     width: 80%;
@@ -49,6 +63,9 @@
     border-radius: 5px;
     opacity: 0.5;
     font-size: 18px;
+}
+#box-first>div:first-child>div:last-child>button:hover{
+    cursor: pointer;
 }
 #box-first>div:last-child{
     /* border: 1px solid mediumblue; */

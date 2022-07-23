@@ -38,6 +38,9 @@
     align-items: center;
     margin-right: 1.5%;
 }
+#navbar>div:nth-child(1):hover{
+    cursor: pointer;
+}
 #navbar>div:nth-child(1)>img{
     height: 60%;
 }
@@ -63,6 +66,9 @@
 #navbar>div:nth-child(3)>img{
     width: 11%;
     height: 70%;
+}
+#navbar>div:nth-child(3)>img:hover{
+    cursor: pointer;
 }
 #navbar>div:nth-child(4){
     /* border: 1px solid darkgreen; */

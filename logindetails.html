@@ -1,0 +1,287 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login details page</title>
+    <link rel="stylesheet" href="footer_avnish.css">
+    <style>
+       #firstdiv{
+        display:flex;
+        gap:10px;
+        /* border:1px solid blue; */
+        width:95%;
+        height:50px;
+        margin:auto;
+        margin-top:20px;
+        background-color: rgb(10,153,255) ;
+       }
+       #firstdiv div{
+        /* border:1px solid red; */
+        width:7%;
+        
+       }
+       #firstdiv div img{
+        width:60%;
+        height:100%;
+        
+       
+       }
+      #threeline .burger-line
+       {
+        width: 40%;
+    height: 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 0 0 #0074d3;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top:8px;
+    gap:2px;
+       }
+       
+       #container{
+        display:flex;
+        gap:10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        width:95%;
+        height:70px;
+        margin:auto;
+        margin-top:20px;
+       
+        /* background-color: rgb(10,153,255) ; */
+       }
+       #container p{
+        color:grey;
+        margin-left:300px;
+        font-size:30px;
+       }
+#mainPart{
+    display:flex;
+    width: 95%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+    height:550px;
+    
+}
+#leftSide{
+    width:20%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#btn{
+    display:flex;
+    width:100%;
+    margin:auto;
+    background-color: white;
+    gap:8px;
+    border:0;
+    padding:5px;
+    margin-left:-15px;
+}
+#btn>img{
+    width:50px;
+    margin-left:50px;
+}
+#btn>h3{
+    font-size:20px;
+    color:grey;
+    background-color: white;
+}
+#belowAppend{
+    display:flex;
+    width:200px;
+    font-size:20px;
+    border-radius: 20px;
+    gap:10px;
+    color:white;
+    background-color: rgb(10,153,255);
+    height:60px;
+    margin-top:10px;
+}
+#belowAppend>h4{
+    display:grid;
+text-align: center;
+align-items:center;
+margin-top:15px;
+
+}
+.selecttag{
+    font-size:20px;
+    border-radius:20px;
+    width:150px;
+    height:50px;
+    margin-top:10px;
+    color:grey;
+}
+#searchpart{
+    width:300px;
+    font-size:20px;
+    border-radius: 20px;
+    margin-left:150px;
+    margin-top:10px;
+    height:50px;
+    color:grey;
+    border:1px solid grey;
+}
+#formflex{
+    display:flex;
+    gap:10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#formflex #belowAppend{
+    margin-left:20px;
+    margin-bottom:5px;
+    border:0px;
+}
+#lastflexuse{
+    display:flex;
+  margin-top:30px;
+}
+#lastflexuse>div>img{
+    width:300px;
+}
+.textmid1{
+    text-align: center;
+    color:grey;
+    font-size: 20px;
+   
+}
+
+.textmid2{
+    text-align: center;
+    color:grey;
+    font-size: 20px;
+    padding:5px;
+    margin-left:30px;
+    margin-right:30px;
+}
+.textmid3{
+   margin-left:80px;
+    color:grey;
+    font-size: 20px;
+    border-radius:10px;
+    background-color: #0074d3;
+    color:white;
+    border:0;
+    padding:8px;
+}
+#donefirst{
+       
+        text-align: center;
+        margin-top:10px;
+        
+       }
+       #logindelwhite{
+        color:white;
+       }
+    </style>
+</head>
+<body>
+  
+        <div id="firstdiv">
+            <div id="threeline">
+                <!-- <img style="width:100px;" src="data:image/png;base64,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" alt=""/> -->
+<div class="burger-line"></div>
+<div class="burger-line"></div>
+<div class="burger-line"></div>
+            </div>
+            <div>
+                <img src="https://app-assets.ayoa.com/8.90.1/images/icons/ayoa.svg" alt=""/>
+            </div>
+            <div>
+                <img src="https://app-assets.ayoa.com/8.90.1/images/icons/home.svg" alt=""/>
+            </div>
+            <div>
+                <img src="https://app-assets.ayoa.com/8.90.1/images/icons/pulse.svg" alt=""/>
+            </div>
+            <div>
+                <img src="https://app-assets.ayoa.com/8.90.1/images/icons/planner.svg" alt=""/>
+            </div>
+            <div>
+                <img src="https://app-assets.ayoa.com/8.90.1/images/icons/notifications-icon.png" alt=""/>
+            </div>
+            <div>
+                <img src="https://app-assets.ayoa.com/8.90.1/images/icons/search-icon.png" alt=""/>
+            </div>
+            <div>
+                <h2 id="donefirst">
+                    <a id="logindelwhite" href="index.html">Home</a> </h2>
+            </div>
+        </div>
+
+
+
+        
+        <div id="container"></div>
+
+
+
+        <br>
+        <div id="mainPart">
+            <div id="leftSide">
+<button id="btn">
+    <img src="https://app-assets.ayoa.com/8.90.1/images/icons/home.svg" alt=""/>
+    <h3>Home</h3>
+</button>
+<button id="btn">
+    <img src="https://app-assets.ayoa.com/8.90.1/images/folders/folders.svg" alt=""/>
+    <h3>Folders</h3>
+</button>
+<button id="btn">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkrv-5yrjFKqRSSf3UW7FtQwTo2b0iZvZllg&usqp=CAU" alt=""/>
+    <h3 id="logout">Logout</h3>
+</button>
+  </div>
+            <div>
+                <div>
+                    <form id="formflex">
+                        <button id="belowAppend">
+                           <h4>+</h4>
+                            <h4>Create new</h4>
+                        </button>
+                        <input type="text" id="searchpart" placeholder="search boards"/>
+                        <select class="selecttag">
+                            <option>Recently opened</option>
+                            <option>Alphabatical</option>
+                            <option>Recently created</option>
+                            <option>Recently updated</option>
+                        </select>
+
+                        <select class="selecttag">
+                            <option>All</option>
+                            <option>Mind map</option>
+                            <option>White board</option>
+                            <option>Task board</option>
+                        </select>
+                    </form>
+
+                </div>
+                <div id="lastflexuse">
+                        <div>
+                            <img src="https://www.ayoa.com/wp-content/uploads/2021/03/wb_allinone_2_webp.webp" alt=""/>
+                            <h2 class="textmid1">Mind Map</h2>
+                            <p class="textmid2">Grow and structure ideas using radial, speed, or organic style mind maps.</p>
+                            <button class="textmid3">create mind map</button>
+                        </div>
+                        <div>
+                            <img src="https://www.ayoa.com/wp-content/uploads/2021/03/wb_allinone_1_webp.webp" alt=""/>
+                            <h2 class="textmid1">White Board</h2>
+                            <p class="textmid2">Brainstorm ideas, work together, and cultivate knowledge on a limitless canvas.</p>
+                            <button class="textmid3">create white board</button>
+                        </div>
+                        <div>
+                            <img src="https://www.ayoa.com/wp-content/uploads/2021/03/wb_allinone_3_webp.webp" alt=""/>
+                            <h2 class="textmid1">Create Task Board</h2>
+                            <p class="textmid2">Take action and get things done by managing tasks using multiple project views.</p>
+                            <button class="textmid3">create mind map</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+<br>
+      <div id="footer"></div>
+    
+</body>
+</html>
+<script src="logindetails.js" type="module">
+
+</script>

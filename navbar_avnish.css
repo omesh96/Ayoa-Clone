@@ -51,15 +51,27 @@
 
    
 }
-#right_heding>div:hover{
+#right_heding>a{
+    color:#555555;
+    font-size: 17px;
+    font-family: "Open Sens",sans-serif;
+    text-decoration: none;
+    border-bottom: none;
+   
+}
+#right_heding>a:hover{
     color:#00c0ff;
         cursor: pointer;
         text-align: center;
+    
+        text-decoration: underline 2px solid #00c0ff;
+        
 
        
      height: 40px;
 
 }
+<<<<<<< HEAD
 #dropdown-content>p:hover{
     border:1px solid whitesmoke;
         box-shadow: rgba(240, 46, 170, 0.4) 0px 3px, rgba(240, 46, 170, 0.3) 0px 0px, rgba(240, 46, 170, 0.2) 0px 1px;
@@ -67,30 +79,52 @@
       color: red;
 }
 
+=======
+>>>>>>> 98e531547eaa5bd98c6f967c338205c31b83ddf5
 
 #dropdown{
     /* border:1px solid red; */
     position:relative;
     display: inline-block;
     cursor: pointer;
+    color: #555555;
  
+ }
+ #dropdown>a{
+    color:#555555;
+    text-decoration: none;
+    border-bottom: none;
  }
  #dropdown-content{
      display: none;
      position:absolute;
      cursor: pointer;
      background-color: whitesmoke;
-     min-width: 160px;
+     min-width: 100px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    padding: 12px 16px;
    z-index: 1;
    text-align: left;
+   color:#555555;
+  
  }
+ #dropdown-content>a{
+    color: #555555;
+    text-decoration: none;
+    border-bottom: none;
+    
+    border-bottom: none;
+ }
+ #dropdown-content>a:hover{
+    color:#00c0ff;
+    text-decoration: underline 2px solid #00c0ff;
+
+}
 
  #dropdown:hover #dropdown-content {
      display: block;
       cursor: pointer;
-      /* color:#00c0ff; */
+      color:#00c0ff;
       border:1px solid  #00c0ff;
    } 
  #LButton{

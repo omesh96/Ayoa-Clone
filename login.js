@@ -14,7 +14,7 @@ document.querySelector("form").addEventListener("submit",function(event){
     {
 localStorage.setItem("login",JSON.stringify(arr));
 alert("Login successfully !!")
-
+window.location.href="logindetails.html";
     }
     document.querySelector("form").reset();
 })

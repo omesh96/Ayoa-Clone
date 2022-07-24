@@ -6,12 +6,92 @@
     font-family: cursive;
 }
 
+
+#con{
+    width:100%;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+    /* border:1px solid red; */
+
+}
+#con>div{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100px;
+}
+#img{
+    width: 30%;
+    height: 40px;
+}
+#right_heding{
+    display: flex;
+    /* border: 1px solid teal; */
+    justify-content: space-between;
+    gap:10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier ', ;
+    height: fit-content;
+   
+}
+#right_heding>div:hover{
+    color:#00c0ff;
+        cursor: pointer;
+        text-align: center;
+
+}
+#dropdown{
+    /* border:1px solid red; */
+    position:relative;
+    display: inline-block;
+    cursor: pointer;
+ 
+ }
+ #dropdown-content{
+     display: none;
+     position:absolute;
+     cursor: pointer;
+     background-color: whitesmoke;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 12px 16px;
+   z-index: 1;
+   text-align: left;
+ }
+
+ #dropdown:hover #dropdown-content {
+     display: block;
+      cursor: pointer;
+      /* color:#00c0ff; */
+      border:1px solid  #00c0ff;
+   } 
+ #LButton{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border:none;
+    font-size: 16px;
+    font-family: 'Courier ', ;
+}
+#LButton:hover{
+    border:1px solid #00c0ff;
+  cursor: pointer;
+    
+}
+
 /* Section - 1 */
 
 nav{
     width: 100%;
     overflow: hidden;
     background-color: #03293c;
+    margin-top: -45px;
 }
 
 .logo a{
@@ -295,3 +375,140 @@ nav>ul>li>button:hover{
     .star-img p+p{
         font-size: 18px;
     }
+
+    /* section footer 7 */
+
+    
+#footer-con{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background-color: #002638;
+    /* border: 1px solid red;/// */
+    justify-content: center;
+    gap:10px;
+     ;
+
+}
+#footer-con>div{
+    width: 15%;
+    height: inherit;
+    /* border: 1px solid red; */
+    /* maeft:50px;rgin-right:50px; */
+    /* margin-l */
+}
+#footer-colum{
+    color:#8AA2B3;
+    
+}
+
+#footer-heading{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Open Sens","sens srif";
+}
+#footer-list{
+    list-style-type: none;
+    font-size: 14px;
+    font-family: "Open Sens","sens srif";
+  
+}
+#footer-list>li:hover{
+    color:#FFFFFF;
+    cursor: pointer;
+}
+#footer-list>li{
+  margin-top: 10px;
+}
+#footer-img{
+    /* border: 1px solid red; */
+    margin-top: 90px;
+    margin-left:40px ;
+}
+#footer-img>img:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+#footer-img2>img{
+    width: 60%;
+    height: 70px;
+    margin-top: 250px;
+    /* margin-left:40px ; */
+}
+#footer-img2>img:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+#footer-img3>img{
+    width: 50%;
+    height: 70px;
+    margin-top: 100px;
+    /* margin-left:40px ; */
+
+}
+#footer-img3>img:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+#footer-img4>img{
+    width: 60%;
+    height: 70px;
+    margin-top: 250px;
+    margin-right:40px ;
+}
+#footer-img4>img:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+#footer-con-2{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    background-color: #002130;
+
+}
+#footer-con-2>div{
+  width: 50%;
+  height: 200px;
+  /* border: 1px solid red; */
+}
+
+#footer-img-logo>img{
+    width: 25%;
+    height: 100px;
+    /* margin: 35px 0px ; */
+    padding:0px 0px 0px 20px;
+    /* border:1px solid red; */
+    
+}
+#footer-img-logo>img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#footer-social-icon{
+    display: flex;
+    justify-content: right;
+    gap:15px;
+}
+#footer-social-icon>i{
+   font-size: 40px;
+   color:#FFFFFF;
+   margin-top:15px;
+   margin-right: 5px;
+
+}
+#footer-social-icon>img{
+    width: 5%;
+    height: 30px;
+    margin-top: 15px;
+    
+}
+#footer-social-icon>i:hover{
+    color: #8AA2B3;
+    cursor: pointer;
+}
+#footer-social-icon>img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}

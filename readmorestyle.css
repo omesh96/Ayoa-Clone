@@ -10,6 +10,7 @@
     align-items: center;
     padding: 13px;
   padding-bottom: 10px;
+  margin-bottom: 30px;
   background-color: #fff6e4;
  }
  #image{
@@ -22,6 +23,7 @@
  }
  #text>p{
     font-size: 18px;
+    
  }
  #learnmorebtn{
     width: 15%;
@@ -46,9 +48,10 @@
    
  position: fixed;
   left: 0;
- 
+ top: 50%;
   z-index: 1000;
   white-space: normal;
+ 
  }
  .logodiv{
     width: 100%;
@@ -72,7 +75,7 @@
     overflow: hidden;
     text-align: center;
     color: gray;
- 
+  margin-bottom: 30px;
 
 }
 h3:before,
@@ -107,7 +110,7 @@ h3:after {
    
     width: 65%;
     margin: auto;
-  
+  margin-top: 30px;
 }
 #brainimage>img{
     width: 100%;
@@ -137,7 +140,7 @@ i{
 }
 #greta>img{
    width: 96%;
-   margin-top: -19px;
+  
 }
  #greta>p{
    font-size: 18px;

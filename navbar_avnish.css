@@ -1,19 +1,42 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
 #con{
     width:100%;
     height: 100px;
     display: flex;
-    margin-top: 30px;
-    /* border:1px solid red; */
+   
+    align-items: center;
+   
+    
+ 
+   
+   
 
 }
-#con>div{
+ #con>div{
     /* border: 1px solid black; */
     width: 50%;
     height: 100px;
+
+    align-items:center;
+}
+ #navbar{
+    position: sticky;
+   top: 0;
+   background-color: white;
+   z-index: 1000;
+  
+ /*  border:  1px solid red;  */
 }
 #img{
     width: 30%;
     height: 40px;
+    align-items: center;
+    margin-top: 24px;
+   
 }
 #right_heding{
     display: flex;
@@ -25,6 +48,7 @@
     font-size: 20px;
     font-family: 'Courier ', ;
     height: fit-content;
+
    
 }
 #right_heding>div:hover{
@@ -32,7 +56,18 @@
         cursor: pointer;
         text-align: center;
 
+       
+     height: 40px;
+
 }
+#dropdown-content>p:hover{
+    border:1px solid whitesmoke;
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 3px, rgba(240, 46, 170, 0.3) 0px 0px, rgba(240, 46, 170, 0.2) 0px 1px;
+    
+      color: red;
+}
+
+
 #dropdown{
     /* border:1px solid red; */
     position:relative;
@@ -73,5 +108,5 @@
 #LButton:hover{
     border:1px solid #00c0ff;
   cursor: pointer;
-    
+  
 }

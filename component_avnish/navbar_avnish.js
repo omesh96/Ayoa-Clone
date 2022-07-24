@@ -26,7 +26,7 @@
             </div>
           </div>
           <div>Pricing</div>
-          <div><button id="LButton">Log In</button></div>
+          <div id="btnhover"><button id="LButton"><a href="../login.html">Login</a></button></div>
     </div>
 </div>`
   }

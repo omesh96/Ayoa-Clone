@@ -2,9 +2,9 @@
  import {navbar_avnish} from "../component_avnish/navbar_avnish.js"
 
  document.getElementById("navbar").innerHTML=navbar_avnish()
+ 
 
-
-let downloadarr=JSON.parse(localStorage.getItem("login")) || [];
+  let downloadarr=JSON.parse(localStorage.getItem("login")) || [];
    let x=document.getElementsByClassName("launch")
   x[0].addEventListener("click",mylaunch)
   x[1].addEventListener("click",mylaunch)

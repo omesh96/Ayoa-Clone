@@ -25,3 +25,10 @@ let textbox=document.createElement("div")
  },3000)
  
  }
+
+ import {footer_component} from "/safe-bridge-5506/footer_component/footer_component.js"
+ document.getElementById("footer").innerHTML=footer_component()
+
+ import { anything } from "../footer_component/footer_component.js"
+
+ document.getElementById("anythings").innerHTML=anything()

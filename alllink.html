@@ -7,8 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="headerstyle.css">
     <link rel="stylesheet" href="alllinkstyle.css">
+    <link rel="stylesheet" href="../safe-bridge-5506/navbar_avnish.css">
+    <link rel="stylesheet" href="footer_avnish.css">
  </head>
  <body>
+    <div id="navbar"></div>
     <header>
 
     </header>
@@ -351,6 +354,8 @@
        <div id="backbtn">
         <button><a href="ayoablog.html">Back</a></button>
        </div>
+
+       <div id="footer"></div>
  </body>
  </html>
 
@@ -360,4 +365,15 @@
     import {header} from "./header.js"
 
     document.querySelector("header").innerHTML=header()
+
+    import {navbar_avnish} from "./component_avnish/navbar_avnish.js"
+
+document.getElementById("navbar").innerHTML=navbar_avnish()
+
+ 
+import { footer_component } from "./footer_component/footer_component.js"
+
+document.getElementById("footer").innerHTML=footer_component()
+
+
  </script>

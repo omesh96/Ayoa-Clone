@@ -4,10 +4,10 @@
 
 
 
-# MonkeyServery : Website_Clone
+# Ayoa : Website_Clone
 
 
-Monkey is the original servery conduction website, pushing the boundaries of brainstorming to new levels. Get started with monkeyservey and its powerful AI
+Ayoa is the mind proble solveing  website, pushing the boundaries of brainstorming to new levels. Get started with monkeyservey and its powerful AI
 
 Speaking of the technical aspects, the site is fairly static with some features, 
 
@@ -19,9 +19,7 @@ Designed the clone with the static page with fuctional features within the stipu
  - HTML5
 - CSS
 - JAVSCRIPT
-- React.js
-- Charkra Ui
-- Redux js
+
 
  
 
@@ -33,7 +31,7 @@ Designed the clone with the static page with fuctional features within the stipu
 
 ## Demo
 
-- Live Demo : https://roaring-bublanina-916643.netlify.app/
+- Live Demo :https://startling-youtiao-e9d129.netlify.app/
 
 
 

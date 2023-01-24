@@ -16,7 +16,7 @@ Website implements the functioning of an E-commerce Website that performs variou
 Designed the clone with the static page with fuctional features within the stipulated time. Used and applied Reactjs, CSS and JavaScript . Worked with a 5-member research team for accomplishing the same. 
 ## Tech Stack
 
--HTML5
+ - HTML5
 - CSS
 - JAVSCRIPT
  
